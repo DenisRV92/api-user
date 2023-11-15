@@ -1,0 +1,8 @@
+when@dev:
+    _errors:
+        resource: '@FrameworkBundle/Resources/config/routing/errors.xml'
+        prefix: /_error
+    assets:
+          path:
+            - /api # Accepts routes under /api except /api/doc
+            - /bundles       # Accepts all routes starting with /bundles
